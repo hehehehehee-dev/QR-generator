@@ -2,5 +2,8 @@
 Generate QRcode from text/URL
 
 # instructions
-- run `pip install -r requirements.txt`
-- just download and then run `QRcode.py` to create qrcode.png which is ur QRcode 
+- Run `pip install -r requirements.txt`
+- Download and then run `QRcode.py`
+- Enter your text/URL
+- Click "Create"
+- The QR code appears on screen and is saved as qrcode.png
