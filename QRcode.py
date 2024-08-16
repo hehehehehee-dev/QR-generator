@@ -13,7 +13,7 @@ def createQR():
 	size=QRsize)
 
     my_label = customtkinter.CTkLabel(app, text="", image=Qrcode)
-    my_label.pack(pady=10)
+    my_label.place(x=(1000-openQR.size[0])/2, y=(1000-openQR.size[1])/2)
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("blue")
